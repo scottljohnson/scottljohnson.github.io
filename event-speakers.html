@@ -20,35 +20,47 @@
         .eventspeaker td {
             border: 1px dashed purple;
         }
-        .eventspeaker img {
-            max-width: 100px;
+        .eventspeaker td:nth-child(1) img {
+            max-width: 200px;
             background-color: white;
             padding: 5px;
             border: 5px solid blue;
             margin: 5px;
             border-radius: 30px;
         }
+        .eventspeaker td:nth-child(2) {
+            background-color: beige;
+        }
+        .eventspeaker td:nth-child(3) img {
+            max-height: 100px;
+            background-color: white;
+            margin: 30px;
+        }
     </style>
 </head>
 <body>
-    <p class="eventspeaker">Event Speakers</p>
+    <p class="eventspeaker">Event Woofers</p>
     <table class="eventspeaker">
         <thead>
-            <th/>
+            <th>Profile Photo</th>
             <th>Name</th>
+            <th>Favorite Team</th>
         </thead>
         <tbody>
             <tr>
                 <td><img src="64x48.png"></td>
                 <td>Tuli</td>
+                <td><img src="mariners.png"></td>
             </tr>
             <tr>
                 <td><img src="80x100.png"></td>
                 <td>Callie</td>
+                <td><img src="seahawks.png"></td>
             </tr>
             <tr>
                 <td><img src="640x640.png"></td>
                 <td>Helo</td>
+                <td><img src="kraken.png"></td>
             </tr>
         </tbody>
     </table>
